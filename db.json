@@ -1,0 +1,127 @@
+[
+  {
+    "ref": "4ddfce27-5b42-4493-a5ce-536277e02ecc",
+    "keyword": "d018540ebc89f75cac980298140cb0b1",
+    "answer": "hola",
+    "options": {},
+    "from": "593995864037",
+    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
+  },
+  {
+    "ref": "ans_ba300df8-45de-413b-a870-c090a8e6e036",
+    "keyword": "key_9f5431df-19e6-48c8-b9e2-a8b1249b5c1d",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "d6b8a7ac6c6039e0513b790aba1f36bf",
+    "from": "593995864037"
+  },
+  {
+    "ref": "e08cfab9-3ccc-4c56-92e9-b1ddbf8f8d8c",
+    "keyword": null,
+    "answer": "Hola bienvenido al servicio de información de Suites LDU de KREAR-T. ¿Cuál es su nombre?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "593995864037",
+    "refSerialize": "542fab1ffbce8e3b23958b2740899aa4"
+  },
+  {
+    "ref": "ans_760c03bf-9ac6-4fb1-9c8b-68aec2b4a758",
+    "keyword": "ans_ba300df8-45de-413b-a870-c090a8e6e036",
+    "answer": "__capture_only_intended__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "79153d6d93195b308bce7086daca2d15",
+    "from": "593995864037"
+  },
+  {
+    "ref": "01fb3402-caeb-421b-9d79-d44ef4aacd2d",
+    "keyword": "79153d6d93195b308bce7086daca2d15",
+    "answer": "Jair",
+    "options": {},
+    "from": "593995864037",
+    "refSerialize": "3ba0a11b4c1e2c4e5da8c2e1e52f4213"
+  },
+  {
+    "ref": "ff8cfeb8-8068-48d6-a130-6c3a3b6db2c0",
+    "keyword": null,
+    "answer": "Bienvenido Jair",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "593995864037",
+    "refSerialize": "715e974e10c1315e02cd684e82b7265e"
+  },
+  {
+    "ref": "ans_2fb21721-9055-43cb-a271-a2b0915b84ab",
+    "keyword": "ans_760c03bf-9ac6-4fb1-9c8b-68aec2b4a758",
+    "answer": "Disponemos de las siguientes Suites",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "02730c2d4390d6496bb62cd4e35ec2d9",
+    "from": "593995864037"
+  },
+  {
+    "ref": "683d6c1b-f348-4600-bc60-cadad1b3dc74",
+    "keyword": null,
+    "answer": "Simple",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "593995864037",
+    "refSerialize": "ede6c1a38a174884dbfa6f4ac2a41a06"
+  },
+  {
+    "ref": "c9139557-132b-449a-b7fd-2ea24d7b84ab",
+    "keyword": null,
+    "answer": "Doble",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "593995864037",
+    "refSerialize": "071a32f26ab51a30dbb198bb0a048999"
+  }
+]
