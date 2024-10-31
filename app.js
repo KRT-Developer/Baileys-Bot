@@ -30,15 +30,30 @@ const flowPrincipal = bot
 		`Disponemos de las siguientes Suites`,
 		null,
 		async (_, { flowDynamic }) => {
-			const getSuites = await googleSheet.retriveDayMenu();
-			console.log(getSuites);
+			const getSuites = await googleSheet.getSuitesNames();
+
 			for (const suite of getSuites) {
 				GLOBAL_STATE.push(suite);
 				await flowDynamic(suite);
 			}
 		}
-	);
+	)
+	.addAnswer([
+		'¿Le interesa alguna? (Escoge una opción)',
+		'*Si* me interesa',
+		'*No* muchas gracias',
+	]);
 //***********************************************************//
+
+const flowPedido = bot.addKeyword(['Si,', 'Si']).addAnswer(
+	'Coloque por favor la opción en la que está interesado(a)',
+	{
+		capture: true,
+	},
+	async (ctx, { state }) => {
+		state.update({ opcion: ctx.body });
+	}
+);
 
 const main = async () => {
 	const adapterDB = new JsonFileAdapter();

@@ -28,24 +28,31 @@ class GoogleSheetService {
 	 * @param {*} dayNumber
 	 * @returns
 	 */
-	retriveDayMenu = async () => {
+	getSuitesNames = async () => {
 		try {
 			const list = [];
 			await this.doc.loadInfo();
 			const sheet = this.doc.sheetsByIndex[0]; // the first sheet
 			await sheet.loadCells('A1:H10');
 			const rows = await sheet.getRows();
-			console.log(rows[0].get('SUITE'));
-			console.log(rows.length - 1);
-			console.log('*************************************');
+
 			for (let index = 0; index <= rows.length - 1; index++) {
-				console.log(index, ' indice');
-				console.log(rows[index].get('SUITE'));
-				let cell = rows[index].get('SUITE');
-				list.push(cell);
+				let suiteName = rows[index].get('SUITE');
+				let suitePrice = rows[index].get('PRECIO');
+				list.push(`${suiteName} con un precio de $ ${suitePrice}`);
 			}
 
 			return list;
+		} catch (err) {
+			console.log(err);
+			return undefined;
+		}
+	};
+
+	getSuitesPrices = async () => {
+		try {
+			const list = [];
+			await this.doc.loadInfo();
 		} catch (err) {
 			console.log(err);
 			return undefined;

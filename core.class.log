@@ -2,15 +2,16 @@
   key: {
     remoteJid: '593995864037@s.whatsapp.net',
     fromMe: false,
-    id: '3EB06B4344C0364D270ED3',
+    id: 'E554202CA8D074F9F3396721778D20F2',
     participant: undefined
   },
-  messageTimestamp: 1730325327,
+  messageTimestamp: 1730390181,
   pushName: 'Jair Luna',
   broadcast: false,
   message: Message {
     extendedTextMessage: ExtendedTextMessage {
-      text: 'hola',
+      text: 'Hola',
+      previewType: 0,
       contextInfo: [ContextInfo],
       inviteLinkGroupTypeV2: 0
     },
@@ -20,12 +21,12 @@
       messageSecret: [Uint8Array]
     }
   },
-  body: 'hola',
+  body: 'Hola',
   from: '593995864037'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_ba300df8-45de-413b-a870-c090a8e6e036',
-  keyword: 'key_9f5431df-19e6-48c8-b9e2-a8b1249b5c1d',
+  ref: 'ans_ce3bd63d-db03-4ef0-953b-d9e61ed51e2e',
+  keyword: 'key_41ad0a08-e894-4781-b778-a945a8d1d2a4',
   answer: '__call_action__',
   options: {
     media: null,
@@ -39,11 +40,11 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'd6b8a7ac6c6039e0513b790aba1f36bf'
+  refSerialize: 'ccec367874a812d8f362f667f1d1dd7d'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_760c03bf-9ac6-4fb1-9c8b-68aec2b4a758',
-  keyword: 'ans_ba300df8-45de-413b-a870-c090a8e6e036',
+  ref: 'ans_c3cf7f6c-6b4b-4355-b803-456ac521b9de',
+  keyword: 'ans_ce3bd63d-db03-4ef0-953b-d9e61ed51e2e',
   answer: '__capture_only_intended__',
   options: {
     media: null,
@@ -57,16 +58,16 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '79153d6d93195b308bce7086daca2d15'
+  refSerialize: '13dde0c2dd0adf44c0cd0e6cb12ec1d2'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '593995864037@s.whatsapp.net',
     fromMe: false,
-    id: '23743A4F7944EB5CC270D7118C13EF58',
+    id: 'E8F69E9E16F3CABFDC7BCB6F96A54BF9',
     participant: undefined
   },
-  messageTimestamp: 1730325328,
+  messageTimestamp: 1730390188,
   pushName: 'Jair Luna',
   broadcast: false,
   message: Message {
@@ -89,15 +90,86 @@
   key: {
     remoteJid: '593995864037@s.whatsapp.net',
     fromMe: false,
-    id: '3EB08443CF3E8D8714011D',
+    id: '2892881FB6D2273F24ED99D558CD5C55',
     participant: undefined
   },
-  messageTimestamp: 1730325329,
+  messageTimestamp: 1730390189,
+  pushName: 'Jair Luna',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Hola',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Hola',
+  from: '593995864037'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593995864037@s.whatsapp.net',
+    fromMe: false,
+    id: '9E79F6F977A87E0FE068DD6EA3307C6A',
+    participant: undefined
+  },
+  messageTimestamp: 1730390190,
+  pushName: 'Jair Luna',
+  broadcast: false,
+  message: Message {
+    protocolMessage: ProtocolMessage {
+      key: [MessageKey],
+      type: 4,
+      ephemeralExpiration: 7776000,
+      ephemeralSettingTimestamp: [Long],
+      disappearingMode: [DisappearingMode]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '',
+  from: '593995864037'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_d17f69b4-d665-414d-8ca0-b5dcdf455063',
+  keyword: 'ans_c3cf7f6c-6b4b-4355-b803-456ac521b9de',
+  answer: 'Disponemos de las siguientes Suites',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '5dc3efd898d60d065f19874eb17305af'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593995864037@s.whatsapp.net',
+    fromMe: false,
+    id: '5D7FE34088B84AAA451550EC4D35EEE2',
+    participant: undefined
+  },
+  messageTimestamp: 1730390217,
   pushName: 'Jair Luna',
   broadcast: false,
   message: Message {
     extendedTextMessage: ExtendedTextMessage {
       text: 'Jair',
+      previewType: 0,
       contextInfo: [ContextInfo],
       inviteLinkGroupTypeV2: 0
     },
@@ -114,10 +186,170 @@
   key: {
     remoteJid: '593995864037@s.whatsapp.net',
     fromMe: false,
-    id: '65B3D4C1A54EDCACF9424EC48603B319',
+    id: '7A1061545835AB5C31652DC287B91867',
     participant: undefined
   },
-  messageTimestamp: 1730325330,
+  messageTimestamp: 1730390250,
+  pushName: 'Jair Luna',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Hola',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Hola',
+  from: '593995864037'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593995864037@s.whatsapp.net',
+    fromMe: false,
+    id: '5C642607EC20A5DD5D5084C34EAF35B2',
+    participant: undefined
+  },
+  messageTimestamp: 1730390262,
+  pushName: 'Jair Luna',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Hola',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Hola',
+  from: '593995864037'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_ce3bd63d-db03-4ef0-953b-d9e61ed51e2e',
+  keyword: 'key_41ad0a08-e894-4781-b778-a945a8d1d2a4',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'ccec367874a812d8f362f667f1d1dd7d'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_c3cf7f6c-6b4b-4355-b803-456ac521b9de',
+  keyword: 'ans_ce3bd63d-db03-4ef0-953b-d9e61ed51e2e',
+  answer: '__capture_only_intended__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '13dde0c2dd0adf44c0cd0e6cb12ec1d2'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_c3cf7f6c-6b4b-4355-b803-456ac521b9de',
+  keyword: 'ans_ce3bd63d-db03-4ef0-953b-d9e61ed51e2e',
+  answer: '__capture_only_intended__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '13dde0c2dd0adf44c0cd0e6cb12ec1d2'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_ce3bd63d-db03-4ef0-953b-d9e61ed51e2e',
+  keyword: 'key_41ad0a08-e894-4781-b778-a945a8d1d2a4',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'ccec367874a812d8f362f667f1d1dd7d'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_ce3bd63d-db03-4ef0-953b-d9e61ed51e2e',
+  keyword: 'key_41ad0a08-e894-4781-b778-a945a8d1d2a4',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'ccec367874a812d8f362f667f1d1dd7d'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_c3cf7f6c-6b4b-4355-b803-456ac521b9de',
+  keyword: 'ans_ce3bd63d-db03-4ef0-953b-d9e61ed51e2e',
+  answer: '__capture_only_intended__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '13dde0c2dd0adf44c0cd0e6cb12ec1d2'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593995864037@s.whatsapp.net',
+    fromMe: false,
+    id: '1C5741EF46E64092E70944B206787586',
+    participant: undefined
+  },
+  messageTimestamp: 1730390262,
   pushName: 'Jair Luna',
   broadcast: false,
   message: Message {
@@ -137,8 +369,8 @@
   from: '593995864037'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_2fb21721-9055-43cb-a271-a2b0915b84ab',
-  keyword: 'ans_760c03bf-9ac6-4fb1-9c8b-68aec2b4a758',
+  ref: 'ans_d17f69b4-d665-414d-8ca0-b5dcdf455063',
+  keyword: 'ans_c3cf7f6c-6b4b-4355-b803-456ac521b9de',
   answer: 'Disponemos de las siguientes Suites',
   options: {
     media: null,
@@ -152,5 +384,75 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '02730c2d4390d6496bb62cd4e35ec2d9'
+  refSerialize: '5dc3efd898d60d065f19874eb17305af'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593995864037@s.whatsapp.net',
+    fromMe: false,
+    id: 'F0333A88D8BDA3449941EB103869148F',
+    participant: undefined
+  },
+  messageTimestamp: 1730390272,
+  pushName: 'Jair Luna',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Gracias',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Gracias',
+  from: '593995864037'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593995864037@s.whatsapp.net',
+    fromMe: false,
+    id: '954578A29A39B55A51B1514F3B27177A',
+    participant: undefined
+  },
+  messageTimestamp: 1730390273,
+  pushName: 'Jair Luna',
+  broadcast: false,
+  message: Message {
+    protocolMessage: ProtocolMessage {
+      key: [MessageKey],
+      type: 4,
+      ephemeralExpiration: 7776000,
+      ephemeralSettingTimestamp: [Long],
+      disappearingMode: [DisappearingMode]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '',
+  from: '593995864037'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_d17f69b4-d665-414d-8ca0-b5dcdf455063',
+  keyword: 'ans_c3cf7f6c-6b4b-4355-b803-456ac521b9de',
+  answer: 'Disponemos de las siguientes Suites',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '5dc3efd898d60d065f19874eb17305af'
 }
