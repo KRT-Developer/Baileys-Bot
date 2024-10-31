@@ -23,11 +23,6 @@ class GoogleSheetService {
 		this.doc = new GoogleSpreadsheet(id, this.jwtFromEnv);
 	}
 
-	/**
-	 * Recuperar el menu del dia
-	 * @param {*} dayNumber
-	 * @returns
-	 */
 	getSuitesNames = async () => {
 		try {
 			const list = [];
@@ -49,16 +44,6 @@ class GoogleSheetService {
 		}
 	};
 
-	getSuitesPrices = async () => {
-		try {
-			const list = [];
-			await this.doc.loadInfo();
-		} catch (err) {
-			console.log(err);
-			return undefined;
-		}
-	};
-
 	/**
 	 * Guardar pedido
 	 * @param {*} data
@@ -66,13 +51,12 @@ class GoogleSheetService {
 	saveOrder = async (data = {}) => {
 		await this.doc.loadInfo();
 		const sheet = this.doc.sheetsByIndex[1]; // the first sheet
-
+		console.log(data);
 		const order = await sheet.addRow({
 			fecha: data.fecha,
 			telefono: data.telefono,
 			nombre: data.nombre,
 			pedido: data.pedido,
-			observaciones: data.observaciones,
 		});
 
 		return order;

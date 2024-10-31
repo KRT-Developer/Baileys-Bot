@@ -23,7 +23,7 @@ const flowPrincipal = bot
 		);
 	})
 	.addAction({ capture: true }, async (ctx, { flowDynamic, state }) => {
-		await state.update({ name: ctx.body });
+		await state.update({ nombre: ctx.body });
 		return await flowDynamic(`Bienvenido ${ctx.body}`);
 	})
 	.addAnswer(
@@ -45,19 +45,48 @@ const flowPrincipal = bot
 	]);
 //***********************************************************//
 
-const flowPedido = bot.addKeyword(['Si,', 'Si']).addAnswer(
-	'Coloque por favor la opción en la que está interesado(a)',
-	{
-		capture: true,
-	},
-	async (ctx, { state }) => {
-		state.update({ opcion: ctx.body });
-	}
-);
+const flowPedido = bot
+	.addKeyword(['Si,', 'Si'], { sensitive: true })
+	.addAction(async (_, { flowDynamic }) => {
+		return await flowDynamic(
+			'Coloque por favor la opción de suite en la que está interesado(a)'
+		);
+	})
+	.addAction({ capture: true }, async (ctx, { state }) => {
+		await state.update({ opcion: ctx.body });
+	})
+	.addAction(
+		async (ctx, { flowDynamic, state }) => {
+			const currentState = state.getMyState();
+			await googleSheet.saveOrder({
+				fecha: new Date().toDateString(),
+				telefono: ctx.from,
+				nombre: currentState.nombre,
+				pedido: currentState.opcion,
+			});
+
+			return await flowDynamic(
+				'Muchas gracias por responder, un asesor se pondrá en contacto con usted lo más pronto posible'
+			);
+		},
+
+		async (_, { endFlow }) => {
+			return endFlow();
+		}
+	);
+
+const flowFinal = bot
+	.addKeyword(['No,', 'No'], { sensitive: true })
+	.addAnswer(
+		'Entendido, muchas gracias por su tiempo',
+		async (_, { endFlow }) => {
+			return endFlow();
+		}
+	);
 
 const main = async () => {
 	const adapterDB = new JsonFileAdapter();
-	const adapterFlow = bot.createFlow([flowPrincipal]);
+	const adapterFlow = bot.createFlow([flowPrincipal, flowPedido, flowFinal]);
 	const adapterProvider = bot.createProvider(BaileysProvider);
 
 	bot.createBot({

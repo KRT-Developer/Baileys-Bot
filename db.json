@@ -1,15 +1,15 @@
 [
   {
-    "ref": "340168b7-7eb8-4b15-88c1-fec18a35f996",
-    "keyword": "cb844c1b44a6f75432f8a641937c828e",
+    "ref": "7f335204-a851-46e5-95eb-188db7414ec3",
+    "keyword": "3226ec288e2932f3764e3bb27096c694",
     "answer": "Hola",
     "options": {},
     "from": "593995864037",
     "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
   },
   {
-    "ref": "ans_ce3bd63d-db03-4ef0-953b-d9e61ed51e2e",
-    "keyword": "key_41ad0a08-e894-4781-b778-a945a8d1d2a4",
+    "ref": "ans_e43170a9-649c-48cc-9d1c-62aa0007fbcd",
+    "keyword": "key_7f616aca-e35b-4bea-b37c-09221d4764f6",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -23,11 +23,11 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "ccec367874a812d8f362f667f1d1dd7d",
+    "refSerialize": "1e0c444e77a4910a89751b07c2bd9556",
     "from": "593995864037"
   },
   {
-    "ref": "4dab82a9-254f-421d-a2be-44e1211898c7",
+    "ref": "04867ca5-4999-45e2-ab03-23c0d724e4f0",
     "keyword": null,
     "answer": "Hola bienvenido al servicio de información de Suites LDU de KREAR-T. ¿Cuál es su nombre?",
     "options": {
@@ -40,8 +40,8 @@
     "refSerialize": "542fab1ffbce8e3b23958b2740899aa4"
   },
   {
-    "ref": "ans_c3cf7f6c-6b4b-4355-b803-456ac521b9de",
-    "keyword": "ans_ce3bd63d-db03-4ef0-953b-d9e61ed51e2e",
+    "ref": "ans_df4cb2db-32eb-4567-a451-57d58e2baac6",
+    "keyword": "ans_e43170a9-649c-48cc-9d1c-62aa0007fbcd",
     "answer": "__capture_only_intended__",
     "options": {
       "media": null,
@@ -55,210 +55,33 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "13dde0c2dd0adf44c0cd0e6cb12ec1d2",
+    "refSerialize": "3cbef8b00ff5e47c79cac7f6a8ff3be7",
     "from": "593995864037"
   },
   {
-    "ref": "1c405eee-a987-43fe-b394-8f024ed11cde",
-    "keyword": "13dde0c2dd0adf44c0cd0e6cb12ec1d2",
-    "answer": "Hola",
-    "options": {},
-    "from": "593995864037",
-    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
-  },
-  {
-    "ref": "282e67ad-4e0c-4cfa-b755-fb71cb95e0ff",
-    "keyword": null,
-    "answer": "Bienvenido Hola",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "593995864037",
-    "refSerialize": "7b544947f0e7ac2069838da55538cf11"
-  },
-  {
-    "ref": "ans_d17f69b4-d665-414d-8ca0-b5dcdf455063",
-    "keyword": "ans_c3cf7f6c-6b4b-4355-b803-456ac521b9de",
-    "answer": "Disponemos de las siguientes Suites",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "5dc3efd898d60d065f19874eb17305af",
-    "from": "593995864037"
-  },
-  {
-    "ref": "b0ab6511-cb46-43c0-a11e-42d53be4e365",
-    "keyword": null,
-    "answer": "Simple con un precio de $ 18000",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "593995864037",
-    "refSerialize": "eec7cb2d62bc8b152f9bb754c27d8b47"
-  },
-  {
-    "ref": "4ea26685-de11-46bf-bcf2-0c25c5839b76",
-    "keyword": null,
-    "answer": "Doble con un precio de $ 28000",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "593995864037",
-    "refSerialize": "00eb96a80746b5c71554076954759a42"
-  },
-  {
-    "ref": "ans_ce3bd63d-db03-4ef0-953b-d9e61ed51e2e",
-    "keyword": "key_41ad0a08-e894-4781-b778-a945a8d1d2a4",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "ccec367874a812d8f362f667f1d1dd7d",
-    "from": "593995864037"
-  },
-  {
-    "ref": "f36ec4b7-2ff2-444a-ba76-a3c4e461e7cf",
-    "keyword": null,
-    "answer": "Hola bienvenido al servicio de información de Suites LDU de KREAR-T. ¿Cuál es su nombre?",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "593995864037",
-    "refSerialize": "542fab1ffbce8e3b23958b2740899aa4"
-  },
-  {
-    "ref": "6ce95e15-5741-4e6a-b04e-c38dee642c4b",
-    "keyword": "ccec367874a812d8f362f667f1d1dd7d",
+    "ref": "5d8ffab3-2bf4-4d4d-9606-76891db994a2",
+    "keyword": "3cbef8b00ff5e47c79cac7f6a8ff3be7",
     "answer": "Jair",
     "options": {},
     "from": "593995864037",
     "refSerialize": "3ba0a11b4c1e2c4e5da8c2e1e52f4213"
   },
   {
-    "ref": "7f46f464-d600-40d4-884e-e35e1dd8bdfa",
-    "keyword": "3ba0a11b4c1e2c4e5da8c2e1e52f4213",
-    "answer": "Hola",
-    "options": {},
-    "from": "593995864037",
-    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
-  },
-  {
-    "ref": "41a79072-41f6-4277-ac28-8568a88f54af",
-    "keyword": "c22e4066d61d81721def9b25d8a397e8",
-    "answer": "Hola",
-    "options": {},
-    "from": "593995864037",
-    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
-  },
-  {
-    "ref": "ans_ce3bd63d-db03-4ef0-953b-d9e61ed51e2e",
-    "keyword": "key_41ad0a08-e894-4781-b778-a945a8d1d2a4",
-    "answer": "__call_action__",
+    "ref": "bf6c0fa0-b65e-40cd-b012-50c89d7e1e74",
+    "keyword": null,
+    "answer": "Bienvenido Jair",
     "options": {
       "media": null,
       "buttons": [],
       "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
+      "delay": 0
     },
-    "refSerialize": "ccec367874a812d8f362f667f1d1dd7d",
-    "from": "593995864037"
+    "from": "593995864037",
+    "refSerialize": "715e974e10c1315e02cd684e82b7265e"
   },
   {
-    "ref": "ans_ce3bd63d-db03-4ef0-953b-d9e61ed51e2e",
-    "keyword": "key_41ad0a08-e894-4781-b778-a945a8d1d2a4",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "ccec367874a812d8f362f667f1d1dd7d",
-    "from": "593995864037"
-  },
-  {
-    "ref": "ans_c3cf7f6c-6b4b-4355-b803-456ac521b9de",
-    "keyword": "ans_ce3bd63d-db03-4ef0-953b-d9e61ed51e2e",
-    "answer": "__capture_only_intended__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": true,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "13dde0c2dd0adf44c0cd0e6cb12ec1d2",
-    "from": "593995864037"
-  },
-  {
-    "ref": "ans_c3cf7f6c-6b4b-4355-b803-456ac521b9de",
-    "keyword": "ans_ce3bd63d-db03-4ef0-953b-d9e61ed51e2e",
-    "answer": "__capture_only_intended__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": true,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "13dde0c2dd0adf44c0cd0e6cb12ec1d2",
-    "from": "593995864037"
-  },
-  {
-    "ref": "ans_d17f69b4-d665-414d-8ca0-b5dcdf455063",
-    "keyword": "ans_c3cf7f6c-6b4b-4355-b803-456ac521b9de",
+    "ref": "ans_45dce8e5-c751-4686-b61d-957cd32fd345",
+    "keyword": "ans_df4cb2db-32eb-4567-a451-57d58e2baac6",
     "answer": "Disponemos de las siguientes Suites",
     "options": {
       "media": null,
@@ -272,13 +95,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "5dc3efd898d60d065f19874eb17305af",
+    "refSerialize": "f92c9ff6d27ab79ca864df9e641f25b3",
     "from": "593995864037"
   },
   {
-    "ref": "eff724a6-e781-4185-a23f-34874e7fa70a",
+    "ref": "8b3d8b51-e572-4520-b470-165cbbfd33bc",
     "keyword": null,
-    "answer": "Hola bienvenido al servicio de información de Suites LDU de KREAR-T. ¿Cuál es su nombre?",
+    "answer": "Simple con un precio de $ 18000",
     "options": {
       "media": null,
       "buttons": [],
@@ -286,12 +109,12 @@
       "delay": 0
     },
     "from": "593995864037",
-    "refSerialize": "542fab1ffbce8e3b23958b2740899aa4"
+    "refSerialize": "eec7cb2d62bc8b152f9bb754c27d8b47"
   },
   {
-    "ref": "33bd09a4-b273-4dfe-aa52-72f077cf417e",
+    "ref": "30072384-adc3-4360-8a2b-837c3d11348f",
     "keyword": null,
-    "answer": "Hola bienvenido al servicio de información de Suites LDU de KREAR-T. ¿Cuál es su nombre?",
+    "answer": "Doble con un precio de $ 28000",
     "options": {
       "media": null,
       "buttons": [],
@@ -299,11 +122,70 @@
       "delay": 0
     },
     "from": "593995864037",
-    "refSerialize": "542fab1ffbce8e3b23958b2740899aa4"
+    "refSerialize": "00eb96a80746b5c71554076954759a42"
   },
   {
-    "ref": "ans_c3cf7f6c-6b4b-4355-b803-456ac521b9de",
-    "keyword": "ans_ce3bd63d-db03-4ef0-953b-d9e61ed51e2e",
+    "ref": "ans_e6942d87-dedc-43b7-9907-4082d9f48b29",
+    "keyword": "ans_45dce8e5-c751-4686-b61d-957cd32fd345",
+    "answer": "¿Le interesa alguna? (Escoge una opción)\n*Si* me interesa\n*No* muchas gracias",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "609cd780ba65d0eb3bb1fc1b50b5c18d",
+    "from": "593995864037"
+  },
+  {
+    "ref": "217b4095-ac59-4d95-a0a9-abebcc15e224",
+    "keyword": "609cd780ba65d0eb3bb1fc1b50b5c18d",
+    "answer": "Si",
+    "options": {},
+    "from": "593995864037",
+    "refSerialize": "611b2bffc5c8bf7a02f45d2060b32e20"
+  },
+  {
+    "ref": "ans_aa1f8ff7-c702-4a57-a45b-81ceb28ad2c6",
+    "keyword": "key_4b724f92-21c4-4595-b850-4f34c43ece6f",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "889651b0ab21c66b444274aa1b305d07",
+    "from": "593995864037"
+  },
+  {
+    "ref": "1d7eeef0-a3e4-4a20-9d89-2ab513dcc499",
+    "keyword": null,
+    "answer": "Coloque por favor la opción de suite en la que está interesado(a)",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "593995864037",
+    "refSerialize": "0106207f70df85ad24d5697266f0de2a"
+  },
+  {
+    "ref": "ans_9374b281-c1db-412f-ba4d-2a7466b8d38f",
+    "keyword": "ans_aa1f8ff7-c702-4a57-a45b-81ceb28ad2c6",
     "answer": "__capture_only_intended__",
     "options": {
       "media": null,
@@ -317,60 +199,21 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "13dde0c2dd0adf44c0cd0e6cb12ec1d2",
+    "refSerialize": "868befeb5e5aa7cbdf32217140ab0b19",
     "from": "593995864037"
   },
   {
-    "ref": "ad45c592-68aa-41e9-925c-1578d4ece7de",
-    "keyword": null,
-    "answer": "Simple con un precio de $ 18000",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "593995864037",
-    "refSerialize": "eec7cb2d62bc8b152f9bb754c27d8b47"
-  },
-  {
-    "ref": "9f48088b-b7cc-40fe-9c56-eeece018e179",
-    "keyword": null,
-    "answer": "Doble con un precio de $ 28000",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "593995864037",
-    "refSerialize": "00eb96a80746b5c71554076954759a42"
-  },
-  {
-    "ref": "fefcdd52-fb14-42da-bf23-8760d1f0fbec",
-    "keyword": "13dde0c2dd0adf44c0cd0e6cb12ec1d2",
-    "answer": "Gracias",
+    "ref": "6673c014-5ab8-4fc3-990d-852bf792abb7",
+    "keyword": "868befeb5e5aa7cbdf32217140ab0b19",
+    "answer": "Suite doble",
     "options": {},
     "from": "593995864037",
-    "refSerialize": "3226ec288e2932f3764e3bb27096c694"
+    "refSerialize": "8ae6c1d0b6e6f0e77f5cce059e7599ef"
   },
   {
-    "ref": "6043b86a-06a9-4045-a003-cbc8a369184d",
-    "keyword": null,
-    "answer": "Bienvenido Gracias",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "593995864037",
-    "refSerialize": "69b11d5125a69984db328c479a5fda28"
-  },
-  {
-    "ref": "ans_d17f69b4-d665-414d-8ca0-b5dcdf455063",
-    "keyword": "ans_c3cf7f6c-6b4b-4355-b803-456ac521b9de",
-    "answer": "Disponemos de las siguientes Suites",
+    "ref": "ans_e22b8e14-806a-4a85-a61c-83dabfe2315f",
+    "keyword": "ans_9374b281-c1db-412f-ba4d-2a7466b8d38f",
+    "answer": "__call_action__",
     "options": {
       "media": null,
       "buttons": [],
@@ -383,13 +226,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "5dc3efd898d60d065f19874eb17305af",
+    "refSerialize": "6d1139f61524f46139734187cf679dc4",
     "from": "593995864037"
   },
   {
-    "ref": "0a48fcda-901f-49b7-999a-5fbe7252fa72",
+    "ref": "dc209d72-5503-43e7-bcd5-4eb2e8338396",
     "keyword": null,
-    "answer": "Simple con un precio de $ 18000",
+    "answer": "Muchas gracias por responder, un asesor se pondrá en contacto con usted lo más pronto posible",
     "options": {
       "media": null,
       "buttons": [],
@@ -397,19 +240,6 @@
       "delay": 0
     },
     "from": "593995864037",
-    "refSerialize": "eec7cb2d62bc8b152f9bb754c27d8b47"
-  },
-  {
-    "ref": "f41d3a44-dfd6-4a2f-9b0f-9f7ac6edc1d8",
-    "keyword": null,
-    "answer": "Doble con un precio de $ 28000",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "593995864037",
-    "refSerialize": "00eb96a80746b5c71554076954759a42"
+    "refSerialize": "a57ca3d35cc6dcb282db252ab6647b2d"
   }
 ]
