@@ -46,7 +46,7 @@ const flowPrincipal = bot
 //***********************************************************//
 
 const flowPedido = bot
-	.addKeyword(['Si,', 'Si'], { sensitive: true })
+	.addKeyword(['Si,', 'Si', 'claro'], { sensitive: true })
 	.addAction(async (_, { flowDynamic }) => {
 		return await flowDynamic(
 			'Coloque por favor la opción de suite en la que está interesado(a)'
@@ -66,7 +66,7 @@ const flowPedido = bot
 			});
 
 			return await flowDynamic(
-				'Muchas gracias por responder, un asesor se pondrá en contacto con usted lo más pronto posible'
+				'Muchas gracias por responder, un asesor comercial se pondrá en contacto con usted lo más pronto posible'
 			);
 		},
 
