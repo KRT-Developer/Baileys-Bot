@@ -2,4 +2,4 @@ node_modules/
 
 .env
 
-./raws.json
+.\raws.json

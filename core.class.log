@@ -1,0 +1,176 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '593995864037@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB00722393B3BBAB8440D',
+    participant: undefined
+  },
+  messageTimestamp: 1731011661,
+  pushName: 'Jair Luna',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Hola',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Hola',
+  from: '593995864037'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b7960ee3-d614-47dd-8c31-363a66fd85f7',
+  keyword: 'key_9bde5934-bda8-4e9c-820e-b63adb888d00',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '2bf896fd2875c4336e0adfe394479ab7'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b1701f65-6ed2-4462-8559-475fce695bff',
+  keyword: 'ans_b7960ee3-d614-47dd-8c31-363a66fd85f7',
+  answer: '__capture_only_intended__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '86665e26afa157b2e57d899dd4a9f2a9'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593995864037@s.whatsapp.net',
+    fromMe: false,
+    id: '226BF4AC7EBB2DAC66EF8642261253F8',
+    participant: undefined
+  },
+  messageTimestamp: 1731011662,
+  pushName: 'Jair Luna',
+  broadcast: false,
+  message: Message {
+    protocolMessage: ProtocolMessage {
+      key: [MessageKey],
+      type: 4,
+      ephemeralExpiration: 7776000,
+      ephemeralSettingTimestamp: [Long],
+      disappearingMode: [DisappearingMode]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '',
+  from: '593995864037'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593995864037@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0635C25E163D7445D9B',
+    participant: undefined
+  },
+  messageTimestamp: 1731011664,
+  pushName: 'Jair Luna',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Jair',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Jair',
+  from: '593995864037'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593995864037@s.whatsapp.net',
+    fromMe: false,
+    id: 'A1FDD600C8832245D67423B87FBF0AB8',
+    participant: undefined
+  },
+  messageTimestamp: 1731011664,
+  pushName: 'Jair Luna',
+  broadcast: false,
+  message: Message {
+    protocolMessage: ProtocolMessage {
+      key: [MessageKey],
+      type: 4,
+      ephemeralExpiration: 7776000,
+      ephemeralSettingTimestamp: [Long],
+      disappearingMode: [DisappearingMode]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '',
+  from: '593995864037'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_e7cbceb6-8ca6-4529-90c2-acfab95401c2',
+  keyword: 'ans_b1701f65-6ed2-4462-8559-475fce695bff',
+  answer: 'Disponemos de las siguientes Suites',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '5b46ae0d610be2081f568ea3803d8c68'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_94e7034c-8d26-4da6-a3fd-b5140d8b6901',
+  keyword: 'ans_e7cbceb6-8ca6-4529-90c2-acfab95401c2',
+  answer: '¿Le interesa alguna? (Escoge una opción)\n' +
+    '*Si* me interesa\n' +
+    '*No* muchas gracias',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'd69fa51c6474a17e8d256e5ee277688f'
+}

@@ -1,15 +1,15 @@
 [
   {
-    "ref": "8bc4af46-fb1c-42af-9e1c-54f428f2a8bd",
-    "keyword": "6d1139f61524f46139734187cf679dc4",
+    "ref": "a552a611-081f-4c64-89e9-bbabee080b57",
+    "keyword": "878e51d033d5c3a4f7c95b69b77ea9d5",
     "answer": "Hola",
     "options": {},
     "from": "593995864037",
     "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
   },
   {
-    "ref": "ans_8a93404b-8e2c-4fec-a1f8-6042bf0548f5",
-    "keyword": "key_63a65998-3606-4b49-9381-0b6cb460a1f1",
+    "ref": "ans_b7960ee3-d614-47dd-8c31-363a66fd85f7",
+    "keyword": "key_9bde5934-bda8-4e9c-820e-b63adb888d00",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -23,11 +23,11 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "d7946ea3bee5ba291b2db48b39b036d1",
+    "refSerialize": "2bf896fd2875c4336e0adfe394479ab7",
     "from": "593995864037"
   },
   {
-    "ref": "cbba9125-b70c-43bb-a3a8-356aae8b7da5",
+    "ref": "d428102a-415f-4b11-b42e-1b17aaa10665",
     "keyword": null,
     "answer": "Hola bienvenido al servicio de información de Suites LDU de KREAR-T. ¿Cuál es su nombre?",
     "options": {
@@ -40,8 +40,8 @@
     "refSerialize": "542fab1ffbce8e3b23958b2740899aa4"
   },
   {
-    "ref": "ans_24ccb93b-b64f-4bb2-a060-4ecceb3a0164",
-    "keyword": "ans_8a93404b-8e2c-4fec-a1f8-6042bf0548f5",
+    "ref": "ans_b1701f65-6ed2-4462-8559-475fce695bff",
+    "keyword": "ans_b7960ee3-d614-47dd-8c31-363a66fd85f7",
     "answer": "__capture_only_intended__",
     "options": {
       "media": null,
@@ -55,19 +55,19 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "03da5c06d1a878cce299251c0793a4ea",
+    "refSerialize": "86665e26afa157b2e57d899dd4a9f2a9",
     "from": "593995864037"
   },
   {
-    "ref": "d8a27638-8d15-4727-af79-2d9a573e3f4d",
-    "keyword": "03da5c06d1a878cce299251c0793a4ea",
+    "ref": "cbe57cd8-b5ea-4c26-8ec3-c27603c15a9c",
+    "keyword": "86665e26afa157b2e57d899dd4a9f2a9",
     "answer": "Jair",
     "options": {},
     "from": "593995864037",
     "refSerialize": "3ba0a11b4c1e2c4e5da8c2e1e52f4213"
   },
   {
-    "ref": "9aa7c180-92e9-48e9-b6c8-226e12afc4b4",
+    "ref": "ea477755-bc63-4828-ae3a-30244f12f34e",
     "keyword": null,
     "answer": "Bienvenido Jair",
     "options": {
@@ -80,8 +80,8 @@
     "refSerialize": "715e974e10c1315e02cd684e82b7265e"
   },
   {
-    "ref": "ans_66a23fdd-f045-47c1-89bd-fea529b82eca",
-    "keyword": "ans_24ccb93b-b64f-4bb2-a060-4ecceb3a0164",
+    "ref": "ans_e7cbceb6-8ca6-4529-90c2-acfab95401c2",
+    "keyword": "ans_b1701f65-6ed2-4462-8559-475fce695bff",
     "answer": "Disponemos de las siguientes Suites",
     "options": {
       "media": null,
@@ -95,13 +95,26 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "83c7917848d8aaf1ace86fae92fcd0c1",
+    "refSerialize": "5b46ae0d610be2081f568ea3803d8c68",
     "from": "593995864037"
   },
   {
-    "ref": "e76c220d-582a-4322-9bf8-df6e14ccc65c",
+    "ref": "2ee2b4ac-b84b-4b35-b37c-56439724a5f6",
     "keyword": null,
-    "answer": "Simple con un precio de $ 18000",
+    "answer": " ",
+    "options": {
+      "media": "C:/Users/disen/base-baileys-json/sources/Tipo/AthenaChair.jpeg",
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "593995864037",
+    "refSerialize": "8479f3beb61500f131d500af38b2f96b"
+  },
+  {
+    "ref": "acb9e739-7f94-4a6b-ae0a-51d5a50be787",
+    "keyword": null,
+    "answer": "Suite Tipo con un precio de $ 13.000",
     "options": {
       "media": null,
       "buttons": [],
@@ -109,12 +122,25 @@
       "delay": 0
     },
     "from": "593995864037",
-    "refSerialize": "eec7cb2d62bc8b152f9bb754c27d8b47"
+    "refSerialize": "fa92a6db421c61a89858b972ca161e74"
   },
   {
-    "ref": "6b302baa-19e4-4128-b449-8526af72a150",
+    "ref": "c68f3365-e5eb-4e90-a35e-c071656c6f55",
     "keyword": null,
-    "answer": "Doble con un precio de $ 28000",
+    "answer": " ",
+    "options": {
+      "media": "C:/Users/disen/base-baileys-json/sources/Doble/doble.jpg",
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "593995864037",
+    "refSerialize": "8479f3beb61500f131d500af38b2f96b"
+  },
+  {
+    "ref": "927dd2f3-3a53-4e70-a6a7-2909cbb52528",
+    "keyword": null,
+    "answer": "Suite Doble con un precio de $ 23.000",
     "options": {
       "media": null,
       "buttons": [],
@@ -122,19 +148,15 @@
       "delay": 0
     },
     "from": "593995864037",
-    "refSerialize": "00eb96a80746b5c71554076954759a42"
+    "refSerialize": "d2d54bc36b8921317c782ecef5c964d4"
   },
   {
-    "ref": "ans_3a16e58d-f24b-4686-bdd5-8ebd8ac3a787",
-    "keyword": "ans_66a23fdd-f045-47c1-89bd-fea529b82eca",
+    "ref": "ans_94e7034c-8d26-4da6-a3fd-b5140d8b6901",
+    "keyword": "ans_e7cbceb6-8ca6-4529-90c2-acfab95401c2",
     "answer": "¿Le interesa alguna? (Escoge una opción)\n*Si* me interesa\n*No* muchas gracias",
     "options": {
       "media": null,
-      "buttons": [
-        {
-          "body": "❌ No"
-        }
-      ],
+      "buttons": [],
       "capture": false,
       "child": null,
       "delay": 0,
@@ -144,7 +166,7 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "a57e292d6ebf5b1d9283276bd0f8c7e9",
+    "refSerialize": "d69fa51c6474a17e8d256e5ee277688f",
     "from": "593995864037"
   }
 ]

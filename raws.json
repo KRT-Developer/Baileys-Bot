@@ -1,0 +1,81 @@
+[
+  S {
+    _worksheet: V {
+      _spreadsheet: [E],
+      _headerRowIndex: 1,
+      _rawProperties: [Object],
+      _cells: [Array],
+      _rowMetadata: [Array],
+      _columnMetadata: [Array],
+      _rowCache: [Array],
+      _headerValues: [Array]
+    },
+    _rowNumber: 2,
+    _rawData: [ 'Simple', '18000' ],
+    _deleted: false
+  }
+  S {
+    _worksheet: V {
+      _spreadsheet: [E],
+      _headerRowIndex: 1,
+      _rawProperties: [Object],
+      _cells: [Array],
+      _rowMetadata: [Array],
+      _columnMetadata: [Array],
+      _rowCache: [Array],
+      _headerValues: [Array]
+    },
+    _rowNumber: 3,
+    _rawData: [ 'Doble', '28000' ],
+    _deleted: false
+  }
+]
+
+
+<ref *1> S {
+  _worksheet: V {
+    _spreadsheet: E {
+      _rawProperties: [Object],
+      _spreadsheetUrl: 'https://docs.google.com/spreadsheets/d/1LxvvgsVUBGeTKILyQSvyvt9o8iO97eZLPP1B47qsca8/edit',
+      _deleted: false,
+      spreadsheetId: '1LxvvgsVUBGeTKILyQSvyvt9o8iO97eZLPP1B47qsca8',
+      auth: [JWT],
+      _rawSheets: [Object],
+      sheetsApi: [Function],
+      driveApi: [Function]
+    },
+    _headerRowIndex: 1,
+    _rawProperties: {
+      sheetId: 0,
+      title: 'Suites',
+      index: 0,
+      sheetType: 'GRID',
+      gridProperties: [Object]
+    },
+    _cells: [
+      [Array], [Array],
+      [Array], [Array],
+      [Array], [Array],
+      [Array], [Array],
+      [Array], [Array]
+    ],
+    _rowMetadata: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    _columnMetadata: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    _rowCache: [ <2 empty items>, [Circular *1], [S] ],
+    _headerValues: [ 'SUITE', 'PRECIO' ]
+  },
+  _rowNumber: 2,
+  _rawData: [ 'Simple', '18000' ],
+  _deleted: false
+}

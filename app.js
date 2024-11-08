@@ -7,6 +7,7 @@ import JsonFileAdapter from '@bot-whatsapp/database/json';
 
 //import chatgpt from './services/chatgpt.js';
 import GoogleSheetService from './services/sheets.js';
+import mysql_1 from '@bot-whatsapp/database/mysql';
 
 const googleSheet = new GoogleSheetService(
 	'1LxvvgsVUBGeTKILyQSvyvt9o8iO97eZLPP1B47qsca8'
@@ -31,17 +32,29 @@ const flowPrincipal = bot
 		null,
 		async (_, { flowDynamic }) => {
 			const getSuites = await googleSheet.getSuitesNames();
+			const getImages = await googleSheet.getSuitesImages();
 
 			for (const suite of getSuites) {
 				GLOBAL_STATE.push(suite);
-				await flowDynamic(suite);
+				const mySuite = suite.split(' ')[0];
+
+				const images = getImages[mySuite];
+
+				for (const image of images) {
+					const imageRuta = image.replace(/\\/g, '/');
+					await flowDynamic(`${mySuite}`, {
+						media: `C:/Users/disen/base-baileys-json/${imageRuta}`,
+					});
+				}
+
+				await flowDynamic(`Suite ${suite}`);
 			}
 		}
 	)
 	.addAnswer([
 		'¿Le interesa alguna? (Escoge una opción)',
-		'*Si* me interesa',
-		'*No* muchas gracias',
+		'👉 *Si* me interesa',
+		'👉 *No* muchas gracias',
 	]);
 //***********************************************************//
 

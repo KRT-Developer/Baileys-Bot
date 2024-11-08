@@ -1,5 +1,8 @@
 import { JWT } from 'google-auth-library';
 import { GoogleSpreadsheet } from 'google-spreadsheet';
+import fs from 'fs';
+import path from 'path';
+import { arch } from 'os';
 
 const SCOPES = [
 	'https://www.googleapis.com/auth/spreadsheets',
@@ -23,12 +26,28 @@ class GoogleSheetService {
 		this.doc = new GoogleSpreadsheet(id, this.jwtFromEnv);
 	}
 
+	listarElementosCarpeta(ruta) {
+		return new Promise((resolve, reject) => {
+			fs.readdir(ruta, (error, archivos) => {
+				if (error) {
+					return reject(error);
+				}
+
+				const archivosLista = archivos.map((archivo) =>
+					path.join(ruta, archivo)
+				);
+				resolve(archivosLista);
+			});
+		});
+	}
+
 	getSuitesNames = async () => {
 		try {
 			const list = [];
 			await this.doc.loadInfo();
 			const sheet = this.doc.sheetsByIndex[0]; // the first sheet
-			await sheet.loadCells('A1:H10');
+			await sheet.loadCells('A1:C6');
+			console.log(sheet.cellStats);
 			const rows = await sheet.getRows();
 
 			for (let index = 0; index <= rows.length - 1; index++) {
@@ -38,6 +57,34 @@ class GoogleSheetService {
 			}
 
 			return list;
+		} catch (err) {
+			console.log(err);
+			return undefined;
+		}
+	};
+
+	getSuitesImages = async () => {
+		try {
+			const object = {};
+
+			await this.doc.loadInfo();
+			const sheet = this.doc.sheetsByIndex[0]; // the first sheet
+			await sheet.loadCells('A1:C6');
+			console.log(sheet.cellStats);
+			const rows = await sheet.getRows();
+
+			for (let index = 0; index <= rows.length - 1; index++) {
+				let suiteName = rows[index].get('SUITE');
+
+				const folderPath = `./sources/${suiteName}`;
+
+				const archivos = await this.listarElementosCarpeta(folderPath);
+
+				object[suiteName] = archivos;
+			}
+
+			// console.log(object);
+			return object;
 		} catch (err) {
 			console.log(err);
 			return undefined;
