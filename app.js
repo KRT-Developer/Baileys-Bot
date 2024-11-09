@@ -38,14 +38,14 @@ const flowPrincipal = bot
 				GLOBAL_STATE.push(suite);
 				const mySuite = suite.split(' ')[0];
 
-				const images = getImages[mySuite];
+				// const images = getImages[mySuite];
 
-				for (const image of images) {
-					const imageRuta = image.replace(/\\/g, '/');
-					await flowDynamic(`${mySuite}`, {
-						media: `C:/Users/disen/base-baileys-json/${imageRuta}`,
-					});
-				}
+				// for (const image of images) {
+				// 	const imageRuta = image.replace(/\\/g, '/');
+				// 	await flowDynamic(`${mySuite}`, {
+				// 		media: `C:/Users/disen/base-baileys-json/${imageRuta}`,
+				// 	});
+				// }
 
 				await flowDynamic(`Suite ${suite}`);
 			}
